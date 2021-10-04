@@ -12,6 +12,10 @@
         <servlet-name>NoteServlet</servlet-name>
         <url-pattern>/note</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NoteServlet</servlet-name>
+        <url-pattern>/note?edit</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
